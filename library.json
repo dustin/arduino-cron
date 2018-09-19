@@ -1,0 +1,14 @@
+{
+    "name": "Cron",
+    "keywords": "time, cron, timer, alarm, schedule, periodic",
+    "description": "Run bits of code on a schedule.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dustin/arduino-cron.git"
+    },
+    "version": "0.1",
+    "exclude": "tests",
+    "examples": "examples/*/*.ino",
+    "frameworks": "arduino",
+    "platforms": [ "espressif" ]
+}

@@ -1,0 +1,19 @@
+# Datatypes (KEYWORD1)
+
+Job	KEYWORD1
+CronTab KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+
+add              KEYWORD2
+set              KEYWORD2
+nextRun          KEYWORD2
+timeLeft         KEYWORD2
+cancel           KEYWORD2
+rescheduleAfter  KEYWORD2
+run              KEYWORD2
+
+# Constants (LITERAL1)
+
+DAILY  LITERAL1
+HOURLY LITERAL1
