@@ -25,8 +25,8 @@ class Job {
     name(n), next(initial), cb(f), incr(period) {}
 
     // Return the number of seconds left before the next job runs.
-    int timeLeft(time_t now) {
-        return (int)difftime(next, now);
+    long timeLeft(time_t now) {
+        return (long)difftime(next, now);
     }
 
     // Time of the next run.
