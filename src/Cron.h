@@ -132,6 +132,7 @@ class Job {
 class CronTab {
  public:
 
+ CronTab() : jobs() {}
  CronTab(std::initializer_list<Job*> j) : jobs(j) {}
 
     void add(Job* j) { jobs.push_back(j); }
