@@ -87,12 +87,12 @@ class Job {
     // Schedule the next run after the given time.  If this job has a
     // 0 increment (i.e., it's a oneshot job), it cancels itself.
     void rescheduleAfter(time_t now) {
-        if (next < now && incr == 0) {
+        if (next <= now && incr == 0) {
             cancel();
             return;
         }
 
-        while (next < now) {
+        while (next <= now) {
             next += incr;
         }
     }
