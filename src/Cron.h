@@ -115,6 +115,8 @@ class Job {
 
     inline bool operator()(time_t now) { return run(now); }
 
+    long period() { return incr; }
+
     // This job's name.
     const char* name;
 
